@@ -17,7 +17,8 @@ Solano = model.NewIntVar(0,2,'Solano')
 Napa = model.NewIntVar(0,2,'Napa')
 Sonoma = model.NewIntVar(0,2,'Sonoma')
 
-Antenna1 = model.NewIntVar(0,2, "A1")
+# Made a new python file for the antenna problem: antenna_frequencies.py
+# Antenna1 = model.NewIntVar(0,2, "A1")
 
 ## add edges
 model.Add(SF != Alameda)
